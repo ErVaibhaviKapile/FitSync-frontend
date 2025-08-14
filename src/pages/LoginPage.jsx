@@ -103,7 +103,6 @@ const LoginPage = () => {
          <Link 
   to="/signup" 
   className="text-cyan-400 font-semibold hover:underline"
->
   Sign up
 </Link>
 
