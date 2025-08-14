@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Routes>
         {/* Redirect root ("/") to SignUp */}
-        <Route path="/" element={<Navigate to="/signup" replace />} />
+        <Route path="/" element={<Navigate to="/login" replace />} />
         
         {/* Normal routes */}
         <Route path="/signup" element={<SignUp />} />
