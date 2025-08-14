@@ -1,6 +1,7 @@
 import { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   // Local state for form inputs and loading state
@@ -103,8 +104,10 @@ const LoginPage = () => {
          <Link 
   to="/signup" 
   className="text-cyan-400 font-semibold hover:underline"
+>
   Sign up
 </Link>
+
 
         </p>
       </div>
